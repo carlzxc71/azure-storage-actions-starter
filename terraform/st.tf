@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "this" {
   name     = "rg-demo-storageactions"
-  location = "West Europe"
+  location = "France Central"
 
   tags = {
     environment = "Demo for Azure Storage Actions"
