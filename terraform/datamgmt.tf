@@ -1,4 +1,4 @@
-resource "azapi_resource" "app" {
+resource "azapi_resource" "this" {
   type                      = "Microsoft.StorageActions/storageTasks@2023-01-01"
   name                      = "mystoragetask"
   parent_id                 = azurerm_resource_group.this.id
